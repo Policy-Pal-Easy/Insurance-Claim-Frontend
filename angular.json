@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -86,10 +87,14 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+           "styles": [
+  "node_modules/bootstrap/scss/bootstrap.scss",
+  "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+  "src/styles.scss"
+],
+"scripts": [
+  "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+]
           }
         }
       }
